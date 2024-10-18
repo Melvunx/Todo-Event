@@ -1,7 +1,11 @@
+import Navbar from "@/components/Navbar";
+import LetterPullup from "../components/ui/letter-pullup";
+
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <Navbar />
+      <LetterPullup words="Home" delay={0.05} className="text-left font-bold" />
     </div>
   );
 };

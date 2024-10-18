@@ -7,11 +7,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
-      "@layout/*": ["src/components/layout/*"],
-      "@pages/*": ["src/pages/*"]
+      "@/*": ["./src/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@layout/*": ["./src/components/layout/*"],
+      "@pages/*": ["./src/pages/*"]
     }
   }
 }

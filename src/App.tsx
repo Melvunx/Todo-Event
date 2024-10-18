@@ -1,9 +1,15 @@
+import { Route, Routes } from "react-router-dom";
+import Date from "./pages/Date";
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <div className="w-full bg-zinc-200 p-8 text-zinc-950">
-      <h1 className="text-center text-2xl font-bold underline">
-        Hello, World!
-      </h1>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/date" element={<Date />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
     </div>
   );
 }
